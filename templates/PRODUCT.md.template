@@ -1,0 +1,40 @@
+# <Product name>
+
+## Problem
+
+<Who has what problem, and why it matters now. 2 to 4 sentences.>
+
+## Audience
+
+<Who uses this. Skill level, context, device.>
+
+## MVP scope
+
+The smallest version that is useful:
+
+- <capability>
+- <capability>
+
+## Out of scope (for now)
+
+- <thing you are deliberately not building>
+
+## Acceptance criteria
+
+Each must be checkable by running or clicking something.
+
+- [ ] Given <state>, when <action>, then <observable result>.
+- [ ] Given <state>, when <action>, then <observable result>.
+- [ ] Failure case: given <bad input or state>, then <safe, clear behavior>.
+
+## Constraints
+
+<Stack, hosting, budget, deadlines, compliance, performance targets.>
+
+## Assumptions
+
+<What you assumed because nobody said. Mark the ones that would change the design if wrong.>
+
+## Open questions
+
+- <question and who can answer it>
