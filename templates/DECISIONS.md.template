@@ -1,0 +1,11 @@
+# Decisions
+
+Newest first. One entry per decision that was hard to make or would be expensive to reverse.
+
+## <YYYY-MM-DD>: <decision in one line>
+
+- **Context:** <what forced the decision>
+- **Options considered:** <A, B, C>
+- **Decision:** <what was chosen>
+- **Why:** <the deciding reason>
+- **Consequences:** <what this makes easier or harder; when to revisit>
