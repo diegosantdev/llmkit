@@ -1,0 +1,11 @@
+{
+  "name": "llmkit",
+  "owner": { "name": "llmkit maintainers" },
+  "plugins": [
+    {
+      "name": "llmkit",
+      "source": "./",
+      "description": "Lean, tested AI-coding toolkit: skills, review agents, safety hooks and templates."
+    }
+  ]
+}

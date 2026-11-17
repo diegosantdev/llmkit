@@ -1,0 +1,7 @@
+{
+  "name": "llmkit",
+  "version": "0.2.0",
+  "description": "Focused AI-coding workflows: 21 skills, 2 review agents, safety hooks and templates. Covers rollback, untrusted input, parallel work, dependency checks, migrations, UI and release readiness.",
+  "license": "MIT",
+  "keywords": ["claude-code", "skills", "ai-coding", "llm-engineering", "agents", "security", "hooks"]
+}
