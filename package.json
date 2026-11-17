@@ -1,0 +1,25 @@
+{
+  "name": "llmkit",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Lean, tested AI-coding toolkit",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "bin": {
+    "llmkit-setup": "scripts/setup.mjs",
+    "llmkit-doctor": "scripts/doctor.mjs",
+    "llmkit-checkpoint": "scripts/checkpoint.mjs"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/test.mjs",
+    "check": "node scripts/validate.mjs && node scripts/test.mjs",
+    "setup": "node scripts/setup.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "evals": "node scripts/evaluate.mjs",
+    "benchmark": "node scripts/benchmark.mjs",
+    "hook-check": "node scripts/hook-check.mjs",
+    "checkpoint": "node scripts/checkpoint.mjs"
+  }
+}
