@@ -1,0 +1,18 @@
+{
+  "description": "llmkit safety net for supported Codex shell and patch tool calls",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "^(Bash|apply_patch)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node --input-type=commonjs -e \"const p=require('node:path'),u=require('node:url');import(u.pathToFileURL(p.join(process.env.PLUGIN_ROOT,'scripts/hooks/codex-pre-tool.mjs')).href).then(m=>m.run())\"",
+            "timeout": 10,
+            "statusMessage": "Checking llmkit guardrails"
+          }
+        ]
+      }
+    ]
+  }
+}
