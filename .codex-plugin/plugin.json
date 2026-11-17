@@ -1,0 +1,7 @@
+{
+  "name": "llmkit",
+  "version": "0.2.0",
+  "description": "Focused coding workflows, recoverable checkpoints and optional local guardrails.",
+  "skills": "./skills/",
+  "hooks": "./hooks/codex.json"
+}
