@@ -1,0 +1,39 @@
+# Handoff
+
+Written: <date and time>. Branch: `<branch>`. Last commit: `<sha> <message>`.
+
+## Goal
+
+<One sentence.>
+
+## State
+
+- [x] <done>
+- [ ] <in progress: what is left>
+- [ ] <not started>
+
+Working tree: <clean | uncommitted changes in these files: ...>
+
+## Next step
+
+<The exact next action, with the command or file.>
+
+## How to verify the current state
+
+```
+<commands that prove it works>
+```
+
+## Decisions
+
+- <decision and reason> (see `DECISIONS.md`)
+
+## Gotchas
+
+- <surprise, flaky test, environment quirk>
+
+## Open questions for the user
+
+- <question>
+
+Secrets are not recorded here. They live in: <where>.
